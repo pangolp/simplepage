@@ -15,7 +15,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="{% url 'web:index' %}">Inicio</a>
+      <a class="navbar-brand" href="{% url 'web:index' %}">Epet 20</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,16 +26,16 @@
             <a class="nav-link" href="{% url 'web:institucional' %}">Institucional <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Galería</a>
+            <a class="nav-link" href="{% url 'web:galeria' %}">Galería</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Teoria</a>
+            <a class="nav-link" href="{% url 'web:teoria' %}">Teoria</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Taller</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Docentes</a>
+            <a class="nav-link" href="{% url 'web:docentes' %}">Docentes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Biblioteca</a>
